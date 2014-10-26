@@ -1,17 +1,18 @@
 # Access Token SHA-1 Generator
 
-**NodeJS app** to generate an access token based on [SHA-1 algorithm](http://en.wikipedia.org/wiki/SHA-1).
+**NodeJS** app to generate an access token based on [SHA-1 algorithm](http://en.wikipedia.org/wiki/SHA-1).
+
 This app uses [crypto](http://nodejs.org/api/crypto.html) and [sha1](https://github.com/pvorb/node-sha1) node packages.
 
-### How to use
+### Usage
 
-**Install**
+Install
 
 ```sh
 $ npm install
 ```
 
-**Run on terminal**
+Run
 
 ```sh
 $ node access_token.js
@@ -23,4 +24,4 @@ $ node access_token.js
 ```
 
 ### License
-[MIT License](http://opensource.org/licenses/MIT)
+MIT License
