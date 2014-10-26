@@ -1,13 +1,10 @@
 {
-  "name": "nodejs",
+  "name": "access_token_generator",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "description": "NodeJS app to generate an access token based on SHA-1 algorithm.",
+  "main": "access_token.js",
+  "author": "Jose Luis Quintana",
+  "license": "MIT",
   "dependencies": {
     "sha1": "^1.1.0"
   }
