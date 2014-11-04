@@ -1,8 +1,8 @@
-var len = 20;
+var len = 40;
 
-require('crypto').randomBytes(len, function(ex, buf) {
+require('crypto').randomBytes(Math.ceil(len / 2), function(ex, buf) {
   var sha1 = require('sha1'),
-      hex = buf.toString('hex'),
+      hex = buf.toString('hex').slice(0, len),
       token = sha1(hex);
 
   console.log('                  Access Token SHA1 Generator');
